@@ -20,21 +20,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.amerservice.info'), // ✅ Your domain
+  metadataBase: new URL('https://www.amerandtasheel.com'), // ✅ Your domain
   title: {
-    default: 'Amer Services - UAE Government & Business Setup Experts',
-    template: '%s | Amer Services',
+    default: 'Al Buhari - UAE Government & Documents Clearing Experts',
+    template: '%s | Al Buhari Services',
   },
   description:
-    'Trusted UAE government and business service provider. Amer Services offers visa processing, Emirates ID, business setup, attestation, legal translation, and more.',
+    'Al Buhari offers comprehensive UAE government services including visa processing, Emirates ID, business setup, Tasheel, attestation, legal translation, and more. Your trusted documents clearing center.',
   keywords: [
+    'al buhari',
+    'documents clearing',
     'amer services',
-    'amer center',
-    'amer',
+    'tasheel services',
     'uae visa services',
     'business setup dubai',
-    'tahseel',
-    'tasheel services',
     'golden visa',
     'family visa',
     'golden visa UAE',
@@ -53,32 +52,32 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.amerservice.info',
-    siteName: 'Amer Services',
-    title: 'Amer Services - UAE Government Services Assistance',
+    url: 'https://www.amerandtasheel.com',
+    siteName: 'Al Buhari Services',
+    title: 'Al Buhari - UAE Government & Documents Clearing Experts',
     description:
-      'Get hassle-free UAE visa and government services including Golden Visa, Emirates ID, business setup, attestation, and more. Trusted support at every step.',
+      'Get reliable UAE visa processing, business setup, Emirates ID, Tasheel services, attestation, translation, and more with Al Buhari. Trusted document clearing specialists.',
     images: [
       {
-        url: 'https://www.amerservice.info/og/amer.webp', // ✅ Replace with your actual OG image
+        url: 'https://www.amerandtasheel.com/og/albuhari.webp', // ✅ Replace with actual OG image
         width: 1200,
         height: 630,
-        alt: 'Amer Services - Government Services in UAE',
+        alt: 'Al Buhari - Government Services & Documents Clearing UAE',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Amer Services - UAE Government Services Assitance',
+    title: 'Al Buhari - UAE Government & Documents Clearing Experts',
     description:
-      'Streamline your UAE visa, Emirates ID, and business setup with Amer Services. Fast, reliable, and government approved.',
-    images: ['https://www.amerservice.info/og/amer.webp'],
+      'Simplify your UAE visa, Emirates ID, Tasheel, and business setup with Al Buhari Services. Fast, professional, and government-approved.',
+    images: ['https://www.amerandtasheel.com/og/albuhari.webp'],
   },
   alternates: {
     canonical: '/',
     languages: {
-      'en': '/',
-      'ar': '/ar', 
+      en: '/',
+      ar: '/ar',
     },
   },
 };
@@ -103,3 +102,4 @@ export default function RootLayout({
     </html>
   );
 }
+
