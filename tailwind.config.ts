@@ -54,7 +54,8 @@ const config: Config = {
       },
       screens: {
         xs: '375px',
-        xm: '425px'
+        xm: '425px',
+        xlg: '2200px'
       },
     },
   },
