@@ -9,22 +9,22 @@ const cardDesigns = [
   {
     mainBg: 'bg-white bg-opacity-20 backdrop-blur-sm',
     iconBg: 'bg-white bg-opacity-20 backdrop-blur-sm',
-    titleColor: 'text-gn uppercase',
-    border: 'border-white',
+    titleColor: 'text-white uppercase',
+    border: 'border-gn',
     hoverEffect: 'hover:shadow-lg hover:scale-[1.01]',
   },
   {
     mainBg: 'bg-white bg-opacity-20 backdrop-blur-sm',
     iconBg: 'bg-white bg-opacity-20 backdrop-blur-sm',
-    titleColor: 'text-gn uppercase',
-    border: 'border-white',
+    titleColor: 'text-white uppercase',
+    border: 'border-gn',
     hoverEffect: 'hover:shadow-lg hover:scale-[1.01]',
   },
   {
     mainBg: 'bg-white bg-opacity-20 backdrop-blur-sm',
     iconBg: 'bg-white bg-opacity-20 backdrop-blur-sm',
-    titleColor: 'text-gn uppercase font-bold',
-    border: 'border-white',
+    titleColor: 'text-white uppercase font-bold',
+    border: 'border-gn',
     hoverEffect: 'hover:shadow-lg hover:scale-[1.01]',
   },
 ];
