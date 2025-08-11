@@ -4,6 +4,7 @@ import OurServices from './home/OurServices';
 import WhyChooseUs from './home/WhyUs';
 import BlogHighlights from './home/Blogs';
 import GoldenVisa from './home/GoldenVisa';
+import ServicesCarousel from './home/ServicesCarousel';
 
 export const metadata = {
   title: 'Al Buhari - UAE Government Services & Documents Clearing',
@@ -40,6 +41,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <div className='lg:hidden'><ServicesCarousel /></div>
       <div className='bg-gray-300 h-[1px] w-[70%] mx-auto'></div>
       <AboutUs />
       <GoldenVisa />
@@ -51,4 +53,5 @@ export default function Home() {
     </>
   );
 }
+
 
