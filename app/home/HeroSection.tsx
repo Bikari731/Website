@@ -41,7 +41,7 @@ const HeroSection = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full h-[82vh] overflow-hidden">
+    <div className="relative w-full h-[83vh] xlg:h-[90vh] overflow-hidden">
       {/* Hero Slider */}
       <div
         ref={sliderRef}
@@ -67,15 +67,15 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-black opacity-60 z-10" />
 
             {/* Text & Buttons */}
-            <div className="absolute inset-0 z-20 flex flex-col gap-3 text-white md:w-[80%] lg:w-[60%] px-5 leading-relaxed md:px-6 mx-auto my-10">
+            <div className="absolute inset-0 z-20 flex flex-col justify-center lg:justify-start gap-3 text-white md:w-[80%] xl:w-[60%] px-5 leading-relaxed md:px-6 m-auto lg:h-[50%] 2xl:h-[60%]">
               <AnimateInView direction="down" duration={1} delay={0.1} triggerOnce={false}>
-                <h1 className="text-4xl sm:text-6xl font-bold">
+                <h1 className="text-4xl sm:text-6xl lg:text-5xl xlg:text-8xl font-bold">
                   {slide.heading}
                 </h1>
               </AnimateInView>
 
               <AnimateInView direction="down" duration={1} delay={0.3} triggerOnce={false}>
-                <p className="text-xl">{slide.subheading}</p>
+                <p className="text-xl xlg:text-4xl">{slide.subheading}</p>
               </AnimateInView>
 
               <AnimateInView direction="up" duration={1} delay={0.5} triggerOnce={false}>
@@ -97,7 +97,7 @@ const HeroSection = () => {
       </div>
 
       {/* Pagination Dots */}
-      <div className="absolute top-16 right-0 transform -translate-x-1/2 flex gap-2 z-30">
+      <div className="absolute top-5 xl:top-16 right-5 xl:right-10 flex gap-2 z-30">
         {heroSlidesContent.map((_, index) => (
           <button
             key={index}
@@ -111,7 +111,7 @@ const HeroSection = () => {
       </div>
 
       {/* Carousel fixed at bottom */}
-      <div className="absolute bottom-0 left-0 w-full z-40">
+      <div className="hidden lg:block lg:absolute bottom-0 left-0 w-full z-40">
         <ServicesCarousel />
       </div>
     </div>
