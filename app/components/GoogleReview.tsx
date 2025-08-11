@@ -6,7 +6,7 @@ export default function FloatingContactButton() {
   return (
     <Link
       href="https://g.page/r/CRlpBVjSi-wJEBM/review"
-      className="fixed bottom-24 right-6 z-[9999] hover:bg-white text-white border-2 border-white p-1 rounded-full shadow-2xl flex flex-col-reverse justify-center items-center group "
+      className="fixed bottom-72 right-6 z-[9999] hover:bg-white text-white border-2 border-white p-1 rounded-full shadow-2xl flex flex-col-reverse justify-center items-center group "
       aria-label="Review Us"
       target='_blank'
       rel="noopener noreferrer"
